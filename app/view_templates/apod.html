@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apod</title>
+</head>
+<body>
+    <!-- include navbar from partials -->
+    {% include "./partials/nav.html" ignore missing with context %}
+
+    <h1>Dynamic content apod page</h1>
+
+    <!-- Load common CSS and JS -->
+    {% include "./partials/dependencies.html" ignore missing with context %}
+</body>
+</html>
